@@ -15,10 +15,10 @@ class Bar {
         this.ctx.fill();
         this.ctx.closePath();
     }
-    checkKeydow(event) {
-        if (event.keyCode == 40) {
+    checkKeyboard(event) {
+        if (event.code == 40) {
             this.x -= this.speed;
-        }else if (event.keyCode == 40) {
+        }else if (event.code == 40) {
             this.x += this.speed;
         }
 

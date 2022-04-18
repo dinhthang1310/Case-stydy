@@ -8,11 +8,11 @@ brick.drawBrick();
 //  document.addEventListener('keypress',function (event) {
 //     console.log(event);
 // });
-document.addEventListener('keyup',function (event) {
-    console.log('KEY UP');
-    console.log(event);
-});
-document.addEventListener('keydown',function (event) {
-    console.log('KEY DOWN');
-    console.log(event);
-});
+// document.addEventListener('keyup',function (event) {
+//     console.log('KEY UP');
+//     console.log(event);
+// });
+// document.addEventListener('keydown',function (event) {
+//     console.log('KEY DOWN');
+//     console.log(event);
+// });
